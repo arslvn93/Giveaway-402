@@ -7,7 +7,7 @@ const config = {
   "giveaway": {
     "heroHeadline": "Win <span class='highlight'>a Luxury Spa Day for Two</span> at Le Nordik!",
     "heroSubheadline": "Reset. Relax. Reconnect. Get a $400 Le Nordik gift card for two. Hosted by Jonathan Amodeo at Tru Realty. Local giveaway. Ends June 1, 2026.",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/znjf926v1srmw0cxt70trpa4ew.jpg",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-LeNordikSpa.jpg",
     "promotionDates": "Enter May 1 to June 1, 2026. Winner picked June 1, 2026.",
     "endDate": "2026-06-02T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
@@ -28,16 +28,11 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
+    "turnstileSiteKey": "",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You're In the Running!",
-    "mainMessage": "Your entry for the <strong>Le Nordik Dream Giveaway</strong> has been submitted successfully. We'll draw the winner on June 1, 2026 and notify them by email. Good luck!",
-    "socialPromptText": "Watch your inbox on June 1, 2026. We will also post the winner on Instagram and Facebook."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -124,8 +119,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Ontario residents only. Must be 18 or older. One entry per person.",
-    "showTipsSection": true,
     "faq": [
       {
         "q": "Who can enter?",
@@ -162,6 +155,8 @@ const config = {
       "Follow @amodeohomes on Instagram and Facebook for updates",
       "Share this with a friend who needs a spa day"
     ],
+    "finePrintText": "Please read the fine print before entering. Ontario residents only. Must be 18 or older. One entry per person.",
+    "showTipsSection": true,
     "fairSelectionInfo": {
       "title": "Fair and Random Winner Selection",
       "text": "We pick the winner with a certified random draw. Every valid entry has the same chance. No tricks. No favors."
@@ -182,7 +177,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750445840887_0",
+      "id": "q_auto_1777472955439_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -204,7 +199,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_1",
+      "id": "q_auto_1777472955439_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -230,7 +225,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445840887_2",
+      "id": "q_auto_1777472955439_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
@@ -256,6 +251,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You're In the Running!",
+    "mainMessage": "Your entry for the <strong>Le Nordik Dream Giveaway</strong> has been submitted successfully. We'll draw the winner on June 1, 2026 and notify them by email. Good luck!",
+    "socialPromptText": "Watch your inbox on June 1, 2026. We will also post the winner on Instagram and Facebook."
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/profile.php?id=61574511552649",
