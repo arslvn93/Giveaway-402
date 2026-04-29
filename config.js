@@ -90,7 +90,7 @@ const config = {
       },
       {
         "icon": "fas fa-question-circle",
-        "title": "Answer 4 Quick Questions",
+        "title": "Answer 3 Quick Questions",
         "description": "Tell us a bit about your home plans."
       },
       {
