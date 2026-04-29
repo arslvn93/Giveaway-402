@@ -28,7 +28,7 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "facebookPixelId": "1057475448873422",
+    "facebookPixelId": "963795162915147",
     "turnstileSiteKey": "",
     "salesGeniusAppApi": "api_7ec7ce1c54951e29a9838dca4cd571bf",
     "followUpBossEmail": "",
